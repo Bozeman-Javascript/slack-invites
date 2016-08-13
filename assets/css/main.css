@@ -1,5 +1,13 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+
+@font-face {
+    font-family: 'neutra_text_tfbold_sc_alt';
+    src: url('../fonts/neutra_text_tf_sc_alt_bold-webfont.woff2') format('woff2'),
+         url('../fonts/neutra_text_tf_sc_alt_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 /*
 	Eventually by HTML5 UP
@@ -292,7 +300,7 @@
 
 	body, input, select, textarea {
 		color: #2e2e2c;
-		font-family: "Roboto", sans-serif;
+		font-family: "neutra_text_tfbold_sc_alt", sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
 		letter-spacing: -0.01em;
@@ -431,7 +439,6 @@
 
 	code {
 		background: rgba(255, 255, 255, 0.125);
-		border-radius: 6px;
 		border: solid 2px rgba(255, 255, 255, 0.35);
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
@@ -761,7 +768,6 @@
 		-ms-transition: border-color 0.2s ease, background-color 0.2s ease;
 		transition: border-color 0.2s ease, background-color 0.2s ease;
 		background-color: transparent;
-		border-radius: 6px;
 		border: none;
 		border: solid 2px #2e2e2c;
 		color: inherit;
@@ -877,7 +883,6 @@
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
 				background: rgba(255, 255, 255, 0.125);
-				border-radius: 6px;
 				border: solid 2px rgba(255, 255, 255, 0.35);
 				content: '';
 				display: inline-block;
@@ -905,7 +910,7 @@
 		}
 
 	input[type="checkbox"] + label:before {
-		border-radius: 6px;
+
 	}
 
 	input[type="radio"] + label:before {
@@ -953,7 +958,6 @@
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		background-color: #2e2e2c;
-		border-radius: 6px;
 		border: 0;
 		color: #fdd959 !important;
 		cursor: pointer;
